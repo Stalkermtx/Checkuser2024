@@ -1,5 +1,5 @@
 #!/bin/bash
-[[ $(awk -F" " '{print $2}' /etc/licencec/telegram) == "@nandoslayer" ]] && {
+[[ $(awk -F" " '{print $2}' /etc/licencec/telegram) == "@StartNetOfc" ]] && {
 IP=$(wget -qO- ipv4.icanhazip.com)
 verif_ptrs() {
 porta=$1
@@ -57,7 +57,7 @@ fun_chuser() {
 clear
 echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[44;1;37m          GERENCIAR CHECKUSER            \E[0m"
-echo -e "\E[44;1;37mVERSÃO 1.6                By @nandoslayer\E[0m"
+echo -e "\E[44;1;37mVERSÃO 1.6                By @StartNetOfc\E[0m"
 echo -e "\033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
 [[ $(netstat -nplt | grep -wc 'python3') != '0' ]] && {
