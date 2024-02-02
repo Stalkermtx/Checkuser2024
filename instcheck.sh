@@ -38,7 +38,7 @@ chmod 777 /bin/chall > /dev/null 2>&1
 chmod 777 /bin/checkgestor > /dev/null 2>&1
 chmod 777 /usr/lib/checkgestor/checkgestor.py > /dev/null 2>&1
 mkdir /etc/licencec > /dev/null 2>&1
-echo -e 'By: @StartNetOfc' > /etc/licencec/telegram
+echo -e 'By: @nandoslayer' > /etc/licencec/telegram
 sleep 2
 }
 install() {
@@ -55,14 +55,14 @@ fun_bar 'fun_install'
 clear
 echo -e "\E[44;1;37m  INSTALAR CHECKUSER PARA CONECTA4G,  \E[0m"
 echo -e "\E[44;1;37m      GLTUNNEL, DTUNNEL, ANYMOD.      \E[0m"
-echo -e "\E[44;1;37mVERSÃO 1.7             By @StartNetOfc\E[0m"
+echo -e "\E[44;1;37mVERSÃO 1.6             By @StartNetOfc\E[0m"
 echo ""
 echo -e "      \033[1;33m • \033[1;32mINSTALAÇÃO CONCLUÍDA\033[1;33m • \033[0m"
 sleep 1
 echo ""
 echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32mchall\033[0m"
 echo ""
-echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@paineis\033[0m"
+echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@StartNetOfc\033[0m"
 echo ""
 echo -ne "\n\033[1;32mDE UM ENTER PARA \033[1;33mCONTINUAR...\033[1;37m: "; read -r
 cat /dev/null > ~/.bash_history && history -c
